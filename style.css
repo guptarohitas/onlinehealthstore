@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+:root{
+    --primaryColor:#288636;
+    --primarBlack:black;
+    --primaryWhite:#fff;
+    --secondaryBlack:rgb(187, 179, 179);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.jumbotron{
+    min-height: 500px;
+}
+
+.jumbotron h1{
+    font-weight: 600;
+}
+
+.jumbotron p{
+    font-weight: 600;
+}
+
+
+.h-span{
+    color: var(--primaryColor);
+    font-size: 60px;
+}
+
+.des{
+    font-size: 20px;
+    
+}
+.carousel{
+    background-color: black;
+
+}
+del{
+    font-size: 15px;
+    
+}
+
+.row-header{
+margin-top: 4.375rem;
+}
+
+.row-style{
+    margin-bottom: 3.125rem;
+    padding: 1.25rem;
+    
+}
+
+.footer{
+    background-color: var(--secondaryBlack);
+    margin-top: 50px;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.table-r{
+    background-color:#F5F5F5;
+    color:var(--primarBlack);
+}
+
+.badge-size{
+font-size: 17px;
+margin-left: 6px;
+}
+
+.carousel-size{
+    height: 150px;
+    overflow: hidden;
+}
